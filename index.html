@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Individu 3 PemWeb</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-card">
+            <div class="top">
+                <div class="image">
+                    <img src="asset/pict.jpg" alt="Profile" width="150" height="150">
+                </div>
+                <div class="namecard">
+                    <h3><b>Yogi Immanuel Pinem</b></h3>
+                    <p>Teknik Informatika, Institut Teknologi sumatera</p>
+
+                    <button onclick="about()" id="hide">About</button>
+                    <button onclick="hideMessage()">Respond</button>
+                    <button onclick="social()">Social Media</button>                    
+                </div>
+            </div>
+            <div class="bottom">
+                <div id="about">
+                    <p>Halo, nama saya Yogi Immanuel Pinem NIM 120140011 mahasiswa dari Institut Teknologi Sumatera. Saya berasal dari Medan, Sumatera Utara</p>
+                </div>
+                <div class="message" id="message">
+                    <div class="input" id="input">
+                        <input type="text" id="pesan" />
+                        <button onclick="getMessage()">Send</button>
+                    </div>
+                    <div class="output" id="hasil">
+                        <p></p>
+                    </div>
+                </div>
+                <div id="sosmed">
+                    <ul>
+                        <li><a href="https://facebook.com/yogipinem.peranginangin"><img src="asset/fb.png" width= "30px" height= "30px"></a></li>
+                        <li><a href="https://instagram.com/yogipinem"><img src="asset/inst.png" width= "30px" height= "30px"></a></li>
+                        <li><a href="https://twitter.com/yogipinem_"><img src="asset/twit.png" width= "30px" height= "30px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
